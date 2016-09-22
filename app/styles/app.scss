@@ -10,3 +10,13 @@ $title-color: #555;
 input[type=search] {
   box-shadow: none;
 }
+
+button {
+  width: 80%;
+}
+
+@media (max-width: 842px){
+  .top-bar {
+    display: none;
+  }
+}
